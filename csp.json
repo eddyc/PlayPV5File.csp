@@ -1,0 +1,19 @@
+{
+    "name": "PlayPV5File.csp",
+    "user": "eddyc",
+    "repo": "PlayPV5File.csp",
+    "version": "1.0.0",
+    "author": "Edward Costello",
+    "email": "phasereset@gmail.com",
+    "description": "Play PV5 files from the command line",
+    "dependencies": [],
+    "csd": {
+        "entrypoint": "PlayPV5File.csd",
+        "macros": [
+            {
+                "symbol": "FILE_PATH",
+                "description": "The path of the pv5 file to play"
+            }
+        ]
+    }
+}
